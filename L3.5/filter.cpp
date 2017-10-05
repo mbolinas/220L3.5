@@ -152,5 +152,9 @@ void filter::print_array_graph(int *array){
 	}
 }
 
-
+filter::~filter(){
+	delete [] array_default;
+	delete [] array_filtered;
+	cout << "destroying filter" << endl;
+}
 

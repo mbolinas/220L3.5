@@ -41,6 +41,8 @@ public:
 	void print_array(int *array); //prints out the given array, new line every 10 ints
 
 	void print_array_graph(int *array); //graphically prints out array
+
+	~filter();
 };
 
 
